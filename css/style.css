@@ -80,7 +80,10 @@ button {
     font-family: 'Poppins', sans-serif;
     font-weight: medium;
 }
-
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
     margin: 0;
@@ -88,10 +91,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10;
 }
 
-h1 {
-    font-size: 4em;
-    margin-bottom: 10px;
-}
+
 .side-coms {
     font-style: italic;
 }
