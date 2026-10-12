@@ -1,0 +1,43 @@
+header {
+    background-color: #d6ce93;
+    padding: 10px;
+    size: 100%;
+    text-align: Center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #efebce;
+    margin: 5px;
+    padding: 10px;
+}
+
+hr {
+    border: 5px solid #a3a380;
+    margin: 0px 0;
+}
+
+button {
+    background-color: #a3a380;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #30301a;
+    margin: 0;
+    padding: 0;
+}
+
+.side-coms {
+    font-style: italic;
+}
