@@ -5,20 +5,19 @@
     --text-color: #30301a;
 }
 
-
-
-
 header {
     background-color: var(--secondary-color);
     padding: 10px;
     size: 300%;
     text-align: Center;
+    margin-bottom: 0px;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     margin: 5px;
+    margin-bottom: -15px;
     padding: 10px;
 }
 
@@ -45,13 +44,44 @@ button {
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
     margin: 0;
-    padding: 0;
+    margin-bottom: -15px;
+    padding: 10;
 }
 
 h1 {
     font-size: 4em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .side-coms {
     font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid var(--text-color);
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid var(--text-color);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--background-color);
 }
